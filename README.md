@@ -4,7 +4,7 @@ This project is a JavaFX application for drawing, manipulating, and interacting 
 
 ## Features
 
-### Part 1: Point Transforms and Snap-to-Grid
+### 1: Point Transforms and Snap-to-Grid
 - Draw lines by holding the **Shift key** and dragging the mouse.
 - Snap endpoints of lines to a 20-pixel grid when created or moved.
 - Visual interaction features:
@@ -19,7 +19,7 @@ This project is a JavaFX application for drawing, manipulating, and interacting 
   - **Down Arrow**: Scale down.
 - Delete selected lines using the **Delete** or **Backspace** keys.
 
-### Part 2: Multiple Selection and Grouping
+### 2: Multiple Selection and Grouping
 - **Multiple Selection**:
   - Hold the **Control key** and click to select/deselect multiple items.
   - Use a rubber-band selection by dragging the mouse to select multiple items within a rectangle.
@@ -29,7 +29,7 @@ This project is a JavaFX application for drawing, manipulating, and interacting 
   - Press the **U key** to ungroup the first selected group.
   - Nested groups are supported.
 
-### Part 3: Undo/Redo
+### 3: Undo/Redo
 - Full undo/redo functionality implemented with a command stack system.
 - Supported commands:
   - Create line
