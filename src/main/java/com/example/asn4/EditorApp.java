@@ -10,7 +10,7 @@ public class EditorApp extends Application {
         MainUI mainUI = new MainUI();
         Scene scene = new Scene(mainUI);
         stage.setScene(scene);
-        stage.setTitle("CMPT 381 A4");
+        stage.setTitle("LineEditor");
         stage.show();
     }
 
