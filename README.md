@@ -51,6 +51,7 @@ This project is a JavaFX application for drawing, manipulating, and interacting 
 - **Publish-Subscribe**: Communication between models and views.
 - **Point Transforms**: For rotating and scaling objects.
 - **State Machine**: For interaction handling in the controller.
+- **Gate Keeper Pattern**: Communication between model and controller happens only with models public API.
 
 ## Project Structure
 - `EditorApp`: The main application class that initializes the project.
