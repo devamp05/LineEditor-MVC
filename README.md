@@ -2,6 +2,17 @@
 
 This project is a JavaFX application for drawing, manipulating, and interacting with lines using a full **Model-View-Controller (MVC)** architecture. It demonstrates key concepts such as event handling, snapping objects to a grid, undo/redo functionality, grouping, selection and multiple selection. The project was developed as part of a university assignment and highlights advanced JavaFX and software design principles.
 
+## Technologies and Concepts
+- **JavaFX**: For the user interface and graphical interactions.
+- **Model-View-Controller (MVC)**: Clear separation of concerns:
+  - `LineModel`: Represents the data layer, storing objects like lines and groups.
+  - `DView`: Immediate-mode graphical view for rendering objects.
+  - `AppController`: Handles user interactions and interprets input using a state machine.
+- **Publish-Subscribe**: Communication between models and views.
+- **Point Transforms**: For rotating and scaling objects.
+- **State Machine**: For interaction handling in the controller.
+- **Gate Keeper Pattern**: Communication between model and controller happens only with models public API.
+
 ## Features
 
 ### 1: Point Transforms and Snap-to-Grid
@@ -41,17 +52,6 @@ This project is a JavaFX application for drawing, manipulating, and interacting 
   - Group/ungroup items
 - Undo: Press **Z** to undo the last action.
 - Redo: Press **R** to redo the last undone action.
-
-## Technologies and Concepts
-- **JavaFX**: For the user interface and graphical interactions.
-- **Model-View-Controller (MVC)**: Clear separation of concerns:
-  - `LineModel`: Represents the data layer, storing objects like lines and groups.
-  - `DView`: Immediate-mode graphical view for rendering objects.
-  - `AppController`: Handles user interactions and interprets input using a state machine.
-- **Publish-Subscribe**: Communication between models and views.
-- **Point Transforms**: For rotating and scaling objects.
-- **State Machine**: For interaction handling in the controller.
-- **Gate Keeper Pattern**: Communication between model and controller happens only with models public API.
 
 ## Project Structure
 - `EditorApp`: The main application class that initializes the project.
